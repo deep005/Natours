@@ -51,7 +51,7 @@
     &__picture {
         background-size: cover;
         height: 23rem;
-        background-blend-mode: screen;
+        background-blend-mode: overlay;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
         border-top-left-radius: 3px;
