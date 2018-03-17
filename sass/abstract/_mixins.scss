@@ -20,23 +20,19 @@
 
 1200 - 1800px      Normal
 1800 - infinity    Big screens
-*/
 
-
-/*
     @mixin respond-phone{
         @media (max-width: 600px){ @content };
     }
-*/
 
-/* 
+
 $breakpoint argument choices:
 - phone
 - tab-port
 - tab-land
 - big-desktop
 */
-@mixin respond($brakpoint){
+@mixin respond($breakpoint){
     @if $breakpoint == phone{
         @media (max-width: 37.5em){ @content }; //600px
     }
