@@ -14,7 +14,7 @@ html{
         }
     */
     @include respond(big-desktop){
-        font-size: 75%; // 12px
+        font-size: 62.5%; // 12px
     }
     @include respond(tab-land){
         font-size: 56.25%; // 9px
